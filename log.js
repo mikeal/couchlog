@@ -1,6 +1,6 @@
 var request = require('request')
   , sys = require('sys')
-  , irc = require('./IRC-js/lib/irc')
+  , irc = require('./IRC/lib/irc')
   ;
   
 var ircOptions = { server: 'irc.freenode.net'};
